@@ -954,11 +954,25 @@ class DatasetProcessor:
                     'quantum_metrics': quantum_metrics_all
                 }
             }
+
+
+           # Define a custom JSON encoder class to handle boolean values
+           class CustomJSONEncoder(json.JSONEncoder):
+               def default(self, obj):
+                   if isinstance(obj, bool):
+                       return int(obj)  # Convert boolean to integer (0 or 1)
+                   elif isinstance(obj, np.ndarray):
+                       return obj.tolist()  # Convert numpy arrays to lists
+                   elif isinstance(obj, np.integer):
+                       return int(obj)  # Convert numpy integers to Python integers
+                   elif isinstance(obj, np.floating):
+                       return float(obj)  # Convert numpy floats to Python floats
+                   return super().default(obj)
             
             # Save group results
             group_file = os.path.join(self.group_dir, 'group_analysis_results.json')
             with open(group_file, 'w') as f:
-                json.dump(group_results, f, indent=4)
+                json.dump(group_results, f, indent=4, cls=CustomJSONEncoder)
             logger.info(f"Saved group analysis results to {group_file}")
             
             # Create summary visualizations

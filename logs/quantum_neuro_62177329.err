@@ -1,0 +1,4 @@
+  File "/blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/code/analysis/analyze_necker_eeg_group.py", line 960
+    class CustomJSONEncoder(json.JSONEncoder):
+                                              ^
+IndentationError: unindent does not match any outer indentation level

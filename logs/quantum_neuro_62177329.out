@@ -1,0 +1,7 @@
+Job running on c0700a-s1.ufhpc
+Job started at Sat Mar 22 17:40:23 EDT 2025
+Directory: /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence
+Activating quantum_neuro conda environment
+Found data file at: /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/raw/EEG_data.mat
+Starting Necker Cube EEG analysis
+Job completed at Sat Mar 22 17:40:26 EDT 2025
