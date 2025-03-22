@@ -1,0 +1,32 @@
+QUANTUM NEURAL COHERENCE ANALYSIS - KEY FINDINGS
+==============================================
+
+1. SIGNIFICANT FREQUENCY BAND DIFFERENCES:
+   * delta Band: High Ambiguity (19.299 ± 2.389) vs. Low Ambiguity (20.104 ± 2.542)
+     Difference: -0.806 ± 1.430, t(19) = -2.456, p = 0.0239, Cohen's d = -0.318
+
+2. SIGNIFICANT QUANTUM METRICS:
+   * No significant quantum metrics found.
+
+3. STRONG CORRELATIONS (|r| > 0.5):
+   * beta and gamma: r = 0.754
+   * TE (C→F) and TE Asymmetry: r = -0.748
+   * TE (C→F) and gamma: r = -0.715
+   * TE Asymmetry and gamma: r = 0.702
+   * alpha and theta: r = 0.687
+   * delta and theta: r = 0.591
+   * gamma and theta: r = 0.589
+   * alpha and gamma: r = 0.560
+   * TE Asymmetry and beta: r = 0.560
+   * Phase Sync (Beta) and TE Asymmetry: r = -0.539
+   * TE (C→F) and beta: r = -0.516
+   * Phase Sync (Beta) and gamma: r = -0.515
+   * Phase Sync (Alpha) and TE Asymmetry: r = -0.511
+   * beta and theta: r = 0.502
+
+4. INTERPRETATION AND QUANTUM SIGNATURES:
+
+5. QUANTUM VS. CLASSICAL INTERPRETATION:
+   The analysis does not reveal significant quantum metrics,
+   suggesting that the neural processing during this perceptual
+   task is adequately explained by classical mechanisms.

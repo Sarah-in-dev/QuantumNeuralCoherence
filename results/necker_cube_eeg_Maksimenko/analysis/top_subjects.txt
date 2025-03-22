@@ -1,0 +1,93 @@
+SUBJECTS WITH STRONGEST QUANTUM SIGNATURES
+=========================================
+
+Subject 16 (Quantum Score: 0.581)
+--------------------------------------------------
+Frequency Bands:
+  * delta: High=24.353, Low=26.982, Diff=-2.629
+  * theta: High=23.596, Low=23.311, Diff=0.285
+  * alpha: High=22.308, Low=21.900, Diff=0.408
+  * beta: High=15.374, Low=15.915, Diff=-0.541
+  * gamma: High=1.466, Low=1.682, Diff=-0.216
+
+Quantum Metrics:
+  * Multiscale Entropy: High=2.159, Low=1.848, Diff=0.311
+  * Phase Sync (Alpha): High=0.508, Low=0.237, Diff=0.271
+  * Phase Sync (Beta): High=0.414, Low=0.348, Diff=0.066
+  * TE (F→C): High=0.036, Low=0.036, Diff=0.001
+  * TE (C→F): High=0.037, Low=0.035, Diff=0.002
+  * TE Asymmetry: High=-0.001, Low=0.000, Diff=-0.001
+
+
+Subject 20 (Quantum Score: 0.515)
+--------------------------------------------------
+Frequency Bands:
+  * delta: High=19.636, Low=20.387, Diff=-0.751
+  * theta: High=15.427, Low=16.062, Diff=-0.635
+  * alpha: High=12.065, Low=14.461, Diff=-2.396
+  * beta: High=9.640, Low=9.645, Diff=-0.005
+  * gamma: High=-6.173, Low=-6.267, Diff=0.094
+
+Quantum Metrics:
+  * Multiscale Entropy: High=2.090, Low=1.810, Diff=0.280
+  * Phase Sync (Alpha): High=0.358, Low=0.126, Diff=0.232
+  * Phase Sync (Beta): High=0.176, Low=0.372, Diff=-0.196
+  * TE (F→C): High=0.037, Low=0.033, Diff=0.004
+  * TE (C→F): High=0.037, Low=0.036, Diff=0.002
+  * TE Asymmetry: High=0.000, Low=-0.003, Diff=0.003
+
+
+Subject 14 (Quantum Score: -0.436)
+--------------------------------------------------
+Frequency Bands:
+  * delta: High=18.552, Low=19.055, Diff=-0.503
+  * theta: High=15.458, Low=16.649, Diff=-1.190
+  * alpha: High=12.939, Low=13.962, Diff=-1.023
+  * beta: High=9.778, Low=10.698, Diff=-0.920
+  * gamma: High=-2.477, Low=-1.862, Diff=-0.615
+
+Quantum Metrics:
+  * Multiscale Entropy: High=2.030, Low=2.026, Diff=0.004
+  * Phase Sync (Alpha): High=0.005, Low=0.454, Diff=-0.449
+  * Phase Sync (Beta): High=0.091, Low=0.146, Diff=-0.055
+  * TE (F→C): High=0.036, Low=0.031, Diff=0.005
+  * TE (C→F): High=0.033, Low=0.036, Diff=-0.003
+  * TE Asymmetry: High=0.004, Low=-0.005, Diff=0.009
+
+
+Subject 18 (Quantum Score: -0.388)
+--------------------------------------------------
+Frequency Bands:
+  * delta: High=21.508, Low=19.591, Diff=1.918
+  * theta: High=17.111, Low=16.924, Diff=0.187
+  * alpha: High=19.275, Low=19.260, Diff=0.015
+  * beta: High=17.270, Low=16.464, Diff=0.806
+  * gamma: High=6.427, Low=5.348, Diff=1.079
+
+Quantum Metrics:
+  * Multiscale Entropy: High=1.681, Low=2.029, Diff=-0.348
+  * Phase Sync (Alpha): High=0.084, Low=0.131, Diff=-0.047
+  * Phase Sync (Beta): High=0.307, Low=0.106, Diff=0.201
+  * TE (F→C): High=0.032, Low=0.035, Diff=-0.003
+  * TE (C→F): High=0.026, Low=0.035, Diff=-0.010
+  * TE Asymmetry: High=0.007, Low=0.000, Diff=0.007
+
+
+Subject 6 (Quantum Score: 0.322)
+--------------------------------------------------
+Frequency Bands:
+  * delta: High=16.581, Low=18.629, Diff=-2.048
+  * theta: High=12.014, Low=13.240, Diff=-1.226
+  * alpha: High=12.477, Low=13.704, Diff=-1.227
+  * beta: High=9.626, Low=10.754, Diff=-1.128
+  * gamma: High=-3.562, Low=-2.118, Diff=-1.445
+
+Quantum Metrics:
+  * Multiscale Entropy: High=2.025, Low=1.780, Diff=0.245
+  * Phase Sync (Alpha): High=0.145, Low=0.057, Diff=0.087
+  * Phase Sync (Beta): High=0.474, Low=0.324, Diff=0.150
+  * TE (F→C): High=0.030, Low=0.037, Diff=-0.007
+  * TE (C→F): High=0.040, Low=0.036, Diff=0.004
+  * TE Asymmetry: High=-0.010, Low=0.001, Diff=-0.011
+
+
