@@ -1,0 +1,27 @@
+{
+    "delta": {
+        "high_ambiguity": 20.807779479670906,
+        "low_ambiguity": 22.12089191172163,
+        "difference": -1.3131124320507226
+    },
+    "theta": {
+        "high_ambiguity": 17.06747498924111,
+        "low_ambiguity": 17.730496907977336,
+        "difference": -0.6630219187362272
+    },
+    "alpha": {
+        "high_ambiguity": 16.080973382486825,
+        "low_ambiguity": 16.263161594691393,
+        "difference": -0.1821882122045686
+    },
+    "beta": {
+        "high_ambiguity": 13.901117008859712,
+        "low_ambiguity": 13.446329948614796,
+        "difference": 0.4547870602449162
+    },
+    "gamma": {
+        "high_ambiguity": 0.7108163830899566,
+        "low_ambiguity": 0.45553774844691025,
+        "difference": 0.2552786346430464
+    }
+}

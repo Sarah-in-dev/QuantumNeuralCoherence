@@ -16,12 +16,13 @@ import warnings
 warnings.filterwarnings('ignore')  # Suppress warnings for cleaner output
 
 # Add the source directory to path to access custom modules
-sys.path.append('/blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/src')
+project_root = '/blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence'
+sys.path.append(project_root)
 
-# Import custom modules (uncomment as needed)
+# Import custom modules
 try:
-    from preprocessing.filters import bandpass_filter, notch_filter
-    from features.quantum_features import (extract_multiscale_entropy, 
+    from src.preprocessing.filters import bandpass_filter, notch_filter
+    from src.features.quantum_features import (extract_multiscale_entropy, 
                                          compute_nonlinear_scaling,
                                          phase_synchronization_analysis,
                                          wavelet_quantum_decomposition,

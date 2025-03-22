@@ -1,0 +1,534 @@
+2025-03-22 14:39:59,408 - analyze_necker_eeg - INFO - Added /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence to Python path
+2025-03-22 14:39:59,489 - analyze_necker_eeg - INFO - Successfully imported custom modules
+2025-03-22 14:39:59,504 - analyze_necker_eeg - INFO - Loading data from /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/raw/EEG_data.mat
+2025-03-22 14:40:02,643 - analyze_necker_eeg - INFO - Dataset contains data from 20 subjects
+2025-03-22 14:40:02,644 - analyze_necker_eeg - INFO - Starting analysis for subjects [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+2025-03-22 14:40:02,669 - analyze_necker_eeg - INFO - Running complete analysis for Subject 1
+2025-03-22 14:40:02,669 - analyze_necker_eeg - INFO - Processing Subject 1...
+2025-03-22 14:40:02,669 - analyze_necker_eeg - INFO -   Number of trials: 80
+2025-03-22 14:40:02,669 - analyze_necker_eeg - INFO -   Number of channels: 31
+2025-03-22 14:40:02,669 - analyze_necker_eeg - INFO -   Timepoints per trial: 1000
+2025-03-22 14:40:02,669 - analyze_necker_eeg - INFO -   Unique ambiguity levels: [0.15, 0.25, 0.4, 0.45, 0.55, 0.6, 0.75, 0.85]
+2025-03-22 14:40:02,669 - analyze_necker_eeg - INFO -   Found 48 high ambiguity trials
+2025-03-22 14:40:02,669 - analyze_necker_eeg - INFO -   Found 15 medium ambiguity trials
+2025-03-22 14:40:02,669 - analyze_necker_eeg - INFO -   Found 17 low ambiguity trials
+2025-03-22 14:40:02,672 - analyze_necker_eeg - INFO -   Saved trial categorization to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/processed/necker_cube_eeg_Maksimenko/subject1_trial_categories.npy
+2025-03-22 14:40:02,672 - analyze_necker_eeg - INFO - Comparing high vs. low ambiguity neural dynamics for Subject 1...
+2025-03-22 14:40:03,497 - analyze_necker_eeg - INFO -   Saved EEG comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject1_high_vs_low_ambiguity_eeg.png
+2025-03-22 14:40:03,497 - analyze_necker_eeg - INFO -   Performing time-frequency analysis...
+2025-03-22 14:40:04,016 - analyze_necker_eeg - INFO -   Saved spectrogram comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject1_high_vs_low_ambiguity_spectrogram.png
+2025-03-22 14:40:04,309 - analyze_necker_eeg - INFO -   Saved spectrogram difference to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject1_ambiguity_spectrogram_difference.png
+2025-03-22 14:40:04,311 - analyze_necker_eeg - INFO -   Saved frequency band powers to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject1_band_powers.json
+2025-03-22 14:40:04,311 - analyze_necker_eeg - INFO - Analyzing potential quantum neural signatures for Subject 1...
+2025-03-22 14:40:04,311 - analyze_necker_eeg - INFO -   Computing multiscale entropy...
+2025-03-22 14:40:04,906 - analyze_necker_eeg - INFO -   Saved multiscale entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject1_multiscale_entropy.png
+2025-03-22 14:40:04,907 - analyze_necker_eeg - INFO -   Computing phase synchronization...
+2025-03-22 14:40:05,118 - analyze_necker_eeg - INFO -   Saved phase synchronization analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject1_phase_synchronization.png
+2025-03-22 14:40:05,119 - analyze_necker_eeg - INFO -   Computing transfer entropy...
+2025-03-22 14:40:05,558 - analyze_necker_eeg - INFO -   Saved transfer entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject1_transfer_entropy.png
+2025-03-22 14:40:05,559 - analyze_necker_eeg - INFO -   Saved quantum metrics to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject1_quantum_metrics.json
+2025-03-22 14:40:05,560 - analyze_necker_eeg - INFO - Analysis for Subject 1 completed
+2025-03-22 14:40:05,560 - analyze_necker_eeg - INFO - Running complete analysis for Subject 2
+2025-03-22 14:40:05,560 - analyze_necker_eeg - INFO - Processing Subject 2...
+2025-03-22 14:40:05,560 - analyze_necker_eeg - INFO -   Number of trials: 80
+2025-03-22 14:40:05,560 - analyze_necker_eeg - INFO -   Number of channels: 31
+2025-03-22 14:40:05,560 - analyze_necker_eeg - INFO -   Timepoints per trial: 1000
+2025-03-22 14:40:05,560 - analyze_necker_eeg - INFO -   Unique ambiguity levels: [0.15, 0.25, 0.4, 0.45, 0.55, 0.6, 0.75, 0.85]
+2025-03-22 14:40:05,560 - analyze_necker_eeg - INFO -   Found 47 high ambiguity trials
+2025-03-22 14:40:05,560 - analyze_necker_eeg - INFO -   Found 16 medium ambiguity trials
+2025-03-22 14:40:05,560 - analyze_necker_eeg - INFO -   Found 17 low ambiguity trials
+2025-03-22 14:40:05,562 - analyze_necker_eeg - INFO -   Saved trial categorization to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/processed/necker_cube_eeg_Maksimenko/subject2_trial_categories.npy
+2025-03-22 14:40:05,562 - analyze_necker_eeg - INFO - Comparing high vs. low ambiguity neural dynamics for Subject 2...
+2025-03-22 14:40:06,271 - analyze_necker_eeg - INFO -   Saved EEG comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject2_high_vs_low_ambiguity_eeg.png
+2025-03-22 14:40:06,271 - analyze_necker_eeg - INFO -   Performing time-frequency analysis...
+2025-03-22 14:40:06,766 - analyze_necker_eeg - INFO -   Saved spectrogram comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject2_high_vs_low_ambiguity_spectrogram.png
+2025-03-22 14:40:07,047 - analyze_necker_eeg - INFO -   Saved spectrogram difference to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject2_ambiguity_spectrogram_difference.png
+2025-03-22 14:40:07,048 - analyze_necker_eeg - INFO -   Saved frequency band powers to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject2_band_powers.json
+2025-03-22 14:40:07,048 - analyze_necker_eeg - INFO - Analyzing potential quantum neural signatures for Subject 2...
+2025-03-22 14:40:07,048 - analyze_necker_eeg - INFO -   Computing multiscale entropy...
+2025-03-22 14:40:07,637 - analyze_necker_eeg - INFO -   Saved multiscale entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject2_multiscale_entropy.png
+2025-03-22 14:40:07,638 - analyze_necker_eeg - INFO -   Computing phase synchronization...
+2025-03-22 14:40:07,848 - analyze_necker_eeg - INFO -   Saved phase synchronization analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject2_phase_synchronization.png
+2025-03-22 14:40:07,849 - analyze_necker_eeg - INFO -   Computing transfer entropy...
+2025-03-22 14:40:08,290 - analyze_necker_eeg - INFO -   Saved transfer entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject2_transfer_entropy.png
+2025-03-22 14:40:08,291 - analyze_necker_eeg - INFO -   Saved quantum metrics to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject2_quantum_metrics.json
+2025-03-22 14:40:08,292 - analyze_necker_eeg - INFO - Analysis for Subject 2 completed
+2025-03-22 14:40:08,292 - analyze_necker_eeg - INFO - Running complete analysis for Subject 3
+2025-03-22 14:40:08,292 - analyze_necker_eeg - INFO - Processing Subject 3...
+2025-03-22 14:40:08,292 - analyze_necker_eeg - INFO -   Number of trials: 80
+2025-03-22 14:40:08,292 - analyze_necker_eeg - INFO -   Number of channels: 31
+2025-03-22 14:40:08,292 - analyze_necker_eeg - INFO -   Timepoints per trial: 1000
+2025-03-22 14:40:08,292 - analyze_necker_eeg - INFO -   Unique ambiguity levels: [0.15, 0.25, 0.4, 0.45, 0.55, 0.6, 0.75, 0.85]
+2025-03-22 14:40:08,292 - analyze_necker_eeg - INFO -   Found 47 high ambiguity trials
+2025-03-22 14:40:08,292 - analyze_necker_eeg - INFO -   Found 17 medium ambiguity trials
+2025-03-22 14:40:08,292 - analyze_necker_eeg - INFO -   Found 16 low ambiguity trials
+2025-03-22 14:40:08,293 - analyze_necker_eeg - INFO -   Saved trial categorization to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/processed/necker_cube_eeg_Maksimenko/subject3_trial_categories.npy
+2025-03-22 14:40:08,293 - analyze_necker_eeg - INFO - Comparing high vs. low ambiguity neural dynamics for Subject 3...
+2025-03-22 14:40:08,998 - analyze_necker_eeg - INFO -   Saved EEG comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject3_high_vs_low_ambiguity_eeg.png
+2025-03-22 14:40:08,998 - analyze_necker_eeg - INFO -   Performing time-frequency analysis...
+2025-03-22 14:40:09,511 - analyze_necker_eeg - INFO -   Saved spectrogram comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject3_high_vs_low_ambiguity_spectrogram.png
+2025-03-22 14:40:09,798 - analyze_necker_eeg - INFO -   Saved spectrogram difference to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject3_ambiguity_spectrogram_difference.png
+2025-03-22 14:40:09,799 - analyze_necker_eeg - INFO -   Saved frequency band powers to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject3_band_powers.json
+2025-03-22 14:40:09,799 - analyze_necker_eeg - INFO - Analyzing potential quantum neural signatures for Subject 3...
+2025-03-22 14:40:09,799 - analyze_necker_eeg - INFO -   Computing multiscale entropy...
+2025-03-22 14:40:10,390 - analyze_necker_eeg - INFO -   Saved multiscale entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject3_multiscale_entropy.png
+2025-03-22 14:40:10,391 - analyze_necker_eeg - INFO -   Computing phase synchronization...
+2025-03-22 14:40:10,616 - analyze_necker_eeg - INFO -   Saved phase synchronization analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject3_phase_synchronization.png
+2025-03-22 14:40:10,617 - analyze_necker_eeg - INFO -   Computing transfer entropy...
+2025-03-22 14:40:11,060 - analyze_necker_eeg - INFO -   Saved transfer entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject3_transfer_entropy.png
+2025-03-22 14:40:11,062 - analyze_necker_eeg - INFO -   Saved quantum metrics to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject3_quantum_metrics.json
+2025-03-22 14:40:11,062 - analyze_necker_eeg - INFO - Analysis for Subject 3 completed
+2025-03-22 14:40:11,062 - analyze_necker_eeg - INFO - Running complete analysis for Subject 4
+2025-03-22 14:40:11,062 - analyze_necker_eeg - INFO - Processing Subject 4...
+2025-03-22 14:40:11,062 - analyze_necker_eeg - INFO -   Number of trials: 80
+2025-03-22 14:40:11,062 - analyze_necker_eeg - INFO -   Number of channels: 31
+2025-03-22 14:40:11,062 - analyze_necker_eeg - INFO -   Timepoints per trial: 1000
+2025-03-22 14:40:11,062 - analyze_necker_eeg - INFO -   Unique ambiguity levels: [0.15, 0.25, 0.4, 0.45, 0.55, 0.6, 0.75, 0.85]
+2025-03-22 14:40:11,062 - analyze_necker_eeg - INFO -   Found 47 high ambiguity trials
+2025-03-22 14:40:11,062 - analyze_necker_eeg - INFO -   Found 17 medium ambiguity trials
+2025-03-22 14:40:11,062 - analyze_necker_eeg - INFO -   Found 16 low ambiguity trials
+2025-03-22 14:40:11,063 - analyze_necker_eeg - INFO -   Saved trial categorization to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/processed/necker_cube_eeg_Maksimenko/subject4_trial_categories.npy
+2025-03-22 14:40:11,063 - analyze_necker_eeg - INFO - Comparing high vs. low ambiguity neural dynamics for Subject 4...
+2025-03-22 14:40:11,762 - analyze_necker_eeg - INFO -   Saved EEG comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject4_high_vs_low_ambiguity_eeg.png
+2025-03-22 14:40:11,762 - analyze_necker_eeg - INFO -   Performing time-frequency analysis...
+2025-03-22 14:40:12,256 - analyze_necker_eeg - INFO -   Saved spectrogram comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject4_high_vs_low_ambiguity_spectrogram.png
+2025-03-22 14:40:12,534 - analyze_necker_eeg - INFO -   Saved spectrogram difference to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject4_ambiguity_spectrogram_difference.png
+2025-03-22 14:40:12,536 - analyze_necker_eeg - INFO -   Saved frequency band powers to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject4_band_powers.json
+2025-03-22 14:40:12,536 - analyze_necker_eeg - INFO - Analyzing potential quantum neural signatures for Subject 4...
+2025-03-22 14:40:12,536 - analyze_necker_eeg - INFO -   Computing multiscale entropy...
+2025-03-22 14:40:13,121 - analyze_necker_eeg - INFO -   Saved multiscale entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject4_multiscale_entropy.png
+2025-03-22 14:40:13,122 - analyze_necker_eeg - INFO -   Computing phase synchronization...
+2025-03-22 14:40:13,328 - analyze_necker_eeg - INFO -   Saved phase synchronization analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject4_phase_synchronization.png
+2025-03-22 14:40:13,329 - analyze_necker_eeg - INFO -   Computing transfer entropy...
+2025-03-22 14:40:13,757 - analyze_necker_eeg - INFO -   Saved transfer entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject4_transfer_entropy.png
+2025-03-22 14:40:13,758 - analyze_necker_eeg - INFO -   Saved quantum metrics to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject4_quantum_metrics.json
+2025-03-22 14:40:13,758 - analyze_necker_eeg - INFO - Analysis for Subject 4 completed
+2025-03-22 14:40:13,758 - analyze_necker_eeg - INFO - Running complete analysis for Subject 5
+2025-03-22 14:40:13,759 - analyze_necker_eeg - INFO - Processing Subject 5...
+2025-03-22 14:40:13,759 - analyze_necker_eeg - INFO -   Number of trials: 80
+2025-03-22 14:40:13,759 - analyze_necker_eeg - INFO -   Number of channels: 31
+2025-03-22 14:40:13,759 - analyze_necker_eeg - INFO -   Timepoints per trial: 1000
+2025-03-22 14:40:13,759 - analyze_necker_eeg - INFO -   Unique ambiguity levels: [0.15, 0.25, 0.4, 0.45, 0.55, 0.6, 0.75, 0.85]
+2025-03-22 14:40:13,759 - analyze_necker_eeg - INFO -   Found 42 high ambiguity trials
+2025-03-22 14:40:13,759 - analyze_necker_eeg - INFO -   Found 18 medium ambiguity trials
+2025-03-22 14:40:13,759 - analyze_necker_eeg - INFO -   Found 20 low ambiguity trials
+2025-03-22 14:40:13,760 - analyze_necker_eeg - INFO -   Saved trial categorization to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/processed/necker_cube_eeg_Maksimenko/subject5_trial_categories.npy
+2025-03-22 14:40:13,760 - analyze_necker_eeg - INFO - Comparing high vs. low ambiguity neural dynamics for Subject 5...
+2025-03-22 14:40:14,470 - analyze_necker_eeg - INFO -   Saved EEG comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject5_high_vs_low_ambiguity_eeg.png
+2025-03-22 14:40:14,470 - analyze_necker_eeg - INFO -   Performing time-frequency analysis...
+2025-03-22 14:40:14,978 - analyze_necker_eeg - INFO -   Saved spectrogram comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject5_high_vs_low_ambiguity_spectrogram.png
+2025-03-22 14:40:15,263 - analyze_necker_eeg - INFO -   Saved spectrogram difference to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject5_ambiguity_spectrogram_difference.png
+2025-03-22 14:40:15,264 - analyze_necker_eeg - INFO -   Saved frequency band powers to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject5_band_powers.json
+2025-03-22 14:40:15,264 - analyze_necker_eeg - INFO - Analyzing potential quantum neural signatures for Subject 5...
+2025-03-22 14:40:15,264 - analyze_necker_eeg - INFO -   Computing multiscale entropy...
+2025-03-22 14:40:15,858 - analyze_necker_eeg - INFO -   Saved multiscale entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject5_multiscale_entropy.png
+2025-03-22 14:40:15,859 - analyze_necker_eeg - INFO -   Computing phase synchronization...
+2025-03-22 14:40:16,081 - analyze_necker_eeg - INFO -   Saved phase synchronization analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject5_phase_synchronization.png
+2025-03-22 14:40:16,082 - analyze_necker_eeg - INFO -   Computing transfer entropy...
+2025-03-22 14:40:16,524 - analyze_necker_eeg - INFO -   Saved transfer entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject5_transfer_entropy.png
+2025-03-22 14:40:16,526 - analyze_necker_eeg - INFO -   Saved quantum metrics to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject5_quantum_metrics.json
+2025-03-22 14:40:16,526 - analyze_necker_eeg - INFO - Analysis for Subject 5 completed
+2025-03-22 14:40:16,526 - analyze_necker_eeg - INFO - Running complete analysis for Subject 6
+2025-03-22 14:40:16,526 - analyze_necker_eeg - INFO - Processing Subject 6...
+2025-03-22 14:40:16,526 - analyze_necker_eeg - INFO -   Number of trials: 80
+2025-03-22 14:40:16,526 - analyze_necker_eeg - INFO -   Number of channels: 31
+2025-03-22 14:40:16,526 - analyze_necker_eeg - INFO -   Timepoints per trial: 1000
+2025-03-22 14:40:16,527 - analyze_necker_eeg - INFO -   Unique ambiguity levels: [0.15, 0.25, 0.4, 0.45, 0.55, 0.6, 0.75, 0.85]
+2025-03-22 14:40:16,527 - analyze_necker_eeg - INFO -   Found 50 high ambiguity trials
+2025-03-22 14:40:16,527 - analyze_necker_eeg - INFO -   Found 16 medium ambiguity trials
+2025-03-22 14:40:16,527 - analyze_necker_eeg - INFO -   Found 14 low ambiguity trials
+2025-03-22 14:40:16,527 - analyze_necker_eeg - INFO -   Saved trial categorization to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/processed/necker_cube_eeg_Maksimenko/subject6_trial_categories.npy
+2025-03-22 14:40:16,527 - analyze_necker_eeg - INFO - Comparing high vs. low ambiguity neural dynamics for Subject 6...
+2025-03-22 14:40:17,341 - analyze_necker_eeg - INFO -   Saved EEG comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject6_high_vs_low_ambiguity_eeg.png
+2025-03-22 14:40:17,342 - analyze_necker_eeg - INFO -   Performing time-frequency analysis...
+2025-03-22 14:40:17,847 - analyze_necker_eeg - INFO -   Saved spectrogram comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject6_high_vs_low_ambiguity_spectrogram.png
+2025-03-22 14:40:18,128 - analyze_necker_eeg - INFO -   Saved spectrogram difference to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject6_ambiguity_spectrogram_difference.png
+2025-03-22 14:40:18,129 - analyze_necker_eeg - INFO -   Saved frequency band powers to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject6_band_powers.json
+2025-03-22 14:40:18,129 - analyze_necker_eeg - INFO - Analyzing potential quantum neural signatures for Subject 6...
+2025-03-22 14:40:18,130 - analyze_necker_eeg - INFO -   Computing multiscale entropy...
+2025-03-22 14:40:18,720 - analyze_necker_eeg - INFO -   Saved multiscale entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject6_multiscale_entropy.png
+2025-03-22 14:40:18,720 - analyze_necker_eeg - INFO -   Computing phase synchronization...
+2025-03-22 14:40:18,926 - analyze_necker_eeg - INFO -   Saved phase synchronization analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject6_phase_synchronization.png
+2025-03-22 14:40:18,927 - analyze_necker_eeg - INFO -   Computing transfer entropy...
+2025-03-22 14:40:19,369 - analyze_necker_eeg - INFO -   Saved transfer entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject6_transfer_entropy.png
+2025-03-22 14:40:19,370 - analyze_necker_eeg - INFO -   Saved quantum metrics to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject6_quantum_metrics.json
+2025-03-22 14:40:19,370 - analyze_necker_eeg - INFO - Analysis for Subject 6 completed
+2025-03-22 14:40:19,370 - analyze_necker_eeg - INFO - Running complete analysis for Subject 7
+2025-03-22 14:40:19,370 - analyze_necker_eeg - INFO - Processing Subject 7...
+2025-03-22 14:40:19,371 - analyze_necker_eeg - INFO -   Number of trials: 80
+2025-03-22 14:40:19,371 - analyze_necker_eeg - INFO -   Number of channels: 31
+2025-03-22 14:40:19,371 - analyze_necker_eeg - INFO -   Timepoints per trial: 1000
+2025-03-22 14:40:19,371 - analyze_necker_eeg - INFO -   Unique ambiguity levels: [0.15, 0.25, 0.4, 0.45, 0.55, 0.6, 0.75, 0.85]
+2025-03-22 14:40:19,371 - analyze_necker_eeg - INFO -   Found 48 high ambiguity trials
+2025-03-22 14:40:19,371 - analyze_necker_eeg - INFO -   Found 20 medium ambiguity trials
+2025-03-22 14:40:19,371 - analyze_necker_eeg - INFO -   Found 12 low ambiguity trials
+2025-03-22 14:40:19,371 - analyze_necker_eeg - INFO -   Saved trial categorization to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/processed/necker_cube_eeg_Maksimenko/subject7_trial_categories.npy
+2025-03-22 14:40:19,371 - analyze_necker_eeg - INFO - Comparing high vs. low ambiguity neural dynamics for Subject 7...
+2025-03-22 14:40:20,069 - analyze_necker_eeg - INFO -   Saved EEG comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject7_high_vs_low_ambiguity_eeg.png
+2025-03-22 14:40:20,069 - analyze_necker_eeg - INFO -   Performing time-frequency analysis...
+2025-03-22 14:40:20,567 - analyze_necker_eeg - INFO -   Saved spectrogram comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject7_high_vs_low_ambiguity_spectrogram.png
+2025-03-22 14:40:20,842 - analyze_necker_eeg - INFO -   Saved spectrogram difference to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject7_ambiguity_spectrogram_difference.png
+2025-03-22 14:40:20,843 - analyze_necker_eeg - INFO -   Saved frequency band powers to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject7_band_powers.json
+2025-03-22 14:40:20,843 - analyze_necker_eeg - INFO - Analyzing potential quantum neural signatures for Subject 7...
+2025-03-22 14:40:20,844 - analyze_necker_eeg - INFO -   Computing multiscale entropy...
+2025-03-22 14:40:21,433 - analyze_necker_eeg - INFO -   Saved multiscale entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject7_multiscale_entropy.png
+2025-03-22 14:40:21,434 - analyze_necker_eeg - INFO -   Computing phase synchronization...
+2025-03-22 14:40:21,644 - analyze_necker_eeg - INFO -   Saved phase synchronization analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject7_phase_synchronization.png
+2025-03-22 14:40:21,645 - analyze_necker_eeg - INFO -   Computing transfer entropy...
+2025-03-22 14:40:22,090 - analyze_necker_eeg - INFO -   Saved transfer entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject7_transfer_entropy.png
+2025-03-22 14:40:22,091 - analyze_necker_eeg - INFO -   Saved quantum metrics to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject7_quantum_metrics.json
+2025-03-22 14:40:22,091 - analyze_necker_eeg - INFO - Analysis for Subject 7 completed
+2025-03-22 14:40:22,091 - analyze_necker_eeg - INFO - Running complete analysis for Subject 8
+2025-03-22 14:40:22,091 - analyze_necker_eeg - INFO - Processing Subject 8...
+2025-03-22 14:40:22,091 - analyze_necker_eeg - INFO -   Number of trials: 80
+2025-03-22 14:40:22,091 - analyze_necker_eeg - INFO -   Number of channels: 31
+2025-03-22 14:40:22,092 - analyze_necker_eeg - INFO -   Timepoints per trial: 1000
+2025-03-22 14:40:22,092 - analyze_necker_eeg - INFO -   Unique ambiguity levels: [0.15, 0.25, 0.4, 0.45, 0.55, 0.6, 0.75, 0.85]
+2025-03-22 14:40:22,092 - analyze_necker_eeg - INFO -   Found 44 high ambiguity trials
+2025-03-22 14:40:22,092 - analyze_necker_eeg - INFO -   Found 18 medium ambiguity trials
+2025-03-22 14:40:22,092 - analyze_necker_eeg - INFO -   Found 18 low ambiguity trials
+2025-03-22 14:40:22,092 - analyze_necker_eeg - INFO -   Saved trial categorization to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/processed/necker_cube_eeg_Maksimenko/subject8_trial_categories.npy
+2025-03-22 14:40:22,092 - analyze_necker_eeg - INFO - Comparing high vs. low ambiguity neural dynamics for Subject 8...
+2025-03-22 14:40:22,816 - analyze_necker_eeg - INFO -   Saved EEG comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject8_high_vs_low_ambiguity_eeg.png
+2025-03-22 14:40:22,816 - analyze_necker_eeg - INFO -   Performing time-frequency analysis...
+2025-03-22 14:40:23,316 - analyze_necker_eeg - INFO -   Saved spectrogram comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject8_high_vs_low_ambiguity_spectrogram.png
+2025-03-22 14:40:23,601 - analyze_necker_eeg - INFO -   Saved spectrogram difference to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject8_ambiguity_spectrogram_difference.png
+2025-03-22 14:40:23,602 - analyze_necker_eeg - INFO -   Saved frequency band powers to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject8_band_powers.json
+2025-03-22 14:40:23,602 - analyze_necker_eeg - INFO - Analyzing potential quantum neural signatures for Subject 8...
+2025-03-22 14:40:23,602 - analyze_necker_eeg - INFO -   Computing multiscale entropy...
+2025-03-22 14:40:24,179 - analyze_necker_eeg - INFO -   Saved multiscale entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject8_multiscale_entropy.png
+2025-03-22 14:40:24,179 - analyze_necker_eeg - INFO -   Computing phase synchronization...
+2025-03-22 14:40:24,384 - analyze_necker_eeg - INFO -   Saved phase synchronization analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject8_phase_synchronization.png
+2025-03-22 14:40:24,385 - analyze_necker_eeg - INFO -   Computing transfer entropy...
+2025-03-22 14:40:24,832 - analyze_necker_eeg - INFO -   Saved transfer entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject8_transfer_entropy.png
+2025-03-22 14:40:24,833 - analyze_necker_eeg - INFO -   Saved quantum metrics to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject8_quantum_metrics.json
+2025-03-22 14:40:24,833 - analyze_necker_eeg - INFO - Analysis for Subject 8 completed
+2025-03-22 14:40:24,833 - analyze_necker_eeg - INFO - Running complete analysis for Subject 9
+2025-03-22 14:40:24,833 - analyze_necker_eeg - INFO - Processing Subject 9...
+2025-03-22 14:40:24,834 - analyze_necker_eeg - INFO -   Number of trials: 80
+2025-03-22 14:40:24,834 - analyze_necker_eeg - INFO -   Number of channels: 31
+2025-03-22 14:40:24,834 - analyze_necker_eeg - INFO -   Timepoints per trial: 1000
+2025-03-22 14:40:24,834 - analyze_necker_eeg - INFO -   Unique ambiguity levels: [0.15, 0.25, 0.4, 0.45, 0.55, 0.6, 0.75, 0.85]
+2025-03-22 14:40:24,834 - analyze_necker_eeg - INFO -   Found 50 high ambiguity trials
+2025-03-22 14:40:24,834 - analyze_necker_eeg - INFO -   Found 16 medium ambiguity trials
+2025-03-22 14:40:24,834 - analyze_necker_eeg - INFO -   Found 14 low ambiguity trials
+2025-03-22 14:40:24,834 - analyze_necker_eeg - INFO -   Saved trial categorization to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/processed/necker_cube_eeg_Maksimenko/subject9_trial_categories.npy
+2025-03-22 14:40:24,835 - analyze_necker_eeg - INFO - Comparing high vs. low ambiguity neural dynamics for Subject 9...
+2025-03-22 14:40:25,525 - analyze_necker_eeg - INFO -   Saved EEG comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject9_high_vs_low_ambiguity_eeg.png
+2025-03-22 14:40:25,526 - analyze_necker_eeg - INFO -   Performing time-frequency analysis...
+2025-03-22 14:40:26,033 - analyze_necker_eeg - INFO -   Saved spectrogram comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject9_high_vs_low_ambiguity_spectrogram.png
+2025-03-22 14:40:26,290 - analyze_necker_eeg - INFO -   Saved spectrogram difference to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject9_ambiguity_spectrogram_difference.png
+2025-03-22 14:40:26,291 - analyze_necker_eeg - INFO -   Saved frequency band powers to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject9_band_powers.json
+2025-03-22 14:40:26,291 - analyze_necker_eeg - INFO - Analyzing potential quantum neural signatures for Subject 9...
+2025-03-22 14:40:26,292 - analyze_necker_eeg - INFO -   Computing multiscale entropy...
+2025-03-22 14:40:26,878 - analyze_necker_eeg - INFO -   Saved multiscale entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject9_multiscale_entropy.png
+2025-03-22 14:40:26,879 - analyze_necker_eeg - INFO -   Computing phase synchronization...
+2025-03-22 14:40:27,100 - analyze_necker_eeg - INFO -   Saved phase synchronization analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject9_phase_synchronization.png
+2025-03-22 14:40:27,101 - analyze_necker_eeg - INFO -   Computing transfer entropy...
+2025-03-22 14:40:27,527 - analyze_necker_eeg - INFO -   Saved transfer entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject9_transfer_entropy.png
+2025-03-22 14:40:27,528 - analyze_necker_eeg - INFO -   Saved quantum metrics to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject9_quantum_metrics.json
+2025-03-22 14:40:27,528 - analyze_necker_eeg - INFO - Analysis for Subject 9 completed
+2025-03-22 14:40:27,528 - analyze_necker_eeg - INFO - Running complete analysis for Subject 10
+2025-03-22 14:40:27,528 - analyze_necker_eeg - INFO - Processing Subject 10...
+2025-03-22 14:40:27,528 - analyze_necker_eeg - INFO -   Number of trials: 80
+2025-03-22 14:40:27,529 - analyze_necker_eeg - INFO -   Number of channels: 31
+2025-03-22 14:40:27,529 - analyze_necker_eeg - INFO -   Timepoints per trial: 1000
+2025-03-22 14:40:27,529 - analyze_necker_eeg - INFO -   Unique ambiguity levels: [0.15, 0.25, 0.4, 0.45, 0.55, 0.6, 0.75, 0.85]
+2025-03-22 14:40:27,529 - analyze_necker_eeg - INFO -   Found 41 high ambiguity trials
+2025-03-22 14:40:27,529 - analyze_necker_eeg - INFO -   Found 18 medium ambiguity trials
+2025-03-22 14:40:27,529 - analyze_necker_eeg - INFO -   Found 21 low ambiguity trials
+2025-03-22 14:40:27,529 - analyze_necker_eeg - INFO -   Saved trial categorization to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/processed/necker_cube_eeg_Maksimenko/subject10_trial_categories.npy
+2025-03-22 14:40:27,529 - analyze_necker_eeg - INFO - Comparing high vs. low ambiguity neural dynamics for Subject 10...
+2025-03-22 14:40:28,232 - analyze_necker_eeg - INFO -   Saved EEG comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject10_high_vs_low_ambiguity_eeg.png
+2025-03-22 14:40:28,232 - analyze_necker_eeg - INFO -   Performing time-frequency analysis...
+2025-03-22 14:40:28,723 - analyze_necker_eeg - INFO -   Saved spectrogram comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject10_high_vs_low_ambiguity_spectrogram.png
+2025-03-22 14:40:29,120 - analyze_necker_eeg - INFO -   Saved spectrogram difference to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject10_ambiguity_spectrogram_difference.png
+2025-03-22 14:40:29,121 - analyze_necker_eeg - INFO -   Saved frequency band powers to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject10_band_powers.json
+2025-03-22 14:40:29,124 - analyze_necker_eeg - INFO - Analyzing potential quantum neural signatures for Subject 10...
+2025-03-22 14:40:29,124 - analyze_necker_eeg - INFO -   Computing multiscale entropy...
+2025-03-22 14:40:29,717 - analyze_necker_eeg - INFO -   Saved multiscale entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject10_multiscale_entropy.png
+2025-03-22 14:40:29,730 - analyze_necker_eeg - INFO -   Computing phase synchronization...
+2025-03-22 14:40:29,965 - analyze_necker_eeg - INFO -   Saved phase synchronization analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject10_phase_synchronization.png
+2025-03-22 14:40:29,966 - analyze_necker_eeg - INFO -   Computing transfer entropy...
+2025-03-22 14:40:30,411 - analyze_necker_eeg - INFO -   Saved transfer entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject10_transfer_entropy.png
+2025-03-22 14:40:30,412 - analyze_necker_eeg - INFO -   Saved quantum metrics to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject10_quantum_metrics.json
+2025-03-22 14:40:30,412 - analyze_necker_eeg - INFO - Analysis for Subject 10 completed
+2025-03-22 14:40:30,412 - analyze_necker_eeg - INFO - Running complete analysis for Subject 11
+2025-03-22 14:40:30,412 - analyze_necker_eeg - INFO - Processing Subject 11...
+2025-03-22 14:40:30,413 - analyze_necker_eeg - INFO -   Number of trials: 80
+2025-03-22 14:40:30,413 - analyze_necker_eeg - INFO -   Number of channels: 31
+2025-03-22 14:40:30,413 - analyze_necker_eeg - INFO -   Timepoints per trial: 1000
+2025-03-22 14:40:30,413 - analyze_necker_eeg - INFO -   Unique ambiguity levels: [0.15, 0.25, 0.4, 0.45, 0.55, 0.6, 0.75, 0.85]
+2025-03-22 14:40:30,413 - analyze_necker_eeg - INFO -   Found 48 high ambiguity trials
+2025-03-22 14:40:30,413 - analyze_necker_eeg - INFO -   Found 15 medium ambiguity trials
+2025-03-22 14:40:30,413 - analyze_necker_eeg - INFO -   Found 17 low ambiguity trials
+2025-03-22 14:40:30,413 - analyze_necker_eeg - INFO -   Saved trial categorization to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/processed/necker_cube_eeg_Maksimenko/subject11_trial_categories.npy
+2025-03-22 14:40:30,413 - analyze_necker_eeg - INFO - Comparing high vs. low ambiguity neural dynamics for Subject 11...
+2025-03-22 14:40:31,152 - analyze_necker_eeg - INFO -   Saved EEG comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject11_high_vs_low_ambiguity_eeg.png
+2025-03-22 14:40:31,152 - analyze_necker_eeg - INFO -   Performing time-frequency analysis...
+2025-03-22 14:40:31,676 - analyze_necker_eeg - INFO -   Saved spectrogram comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject11_high_vs_low_ambiguity_spectrogram.png
+2025-03-22 14:40:31,972 - analyze_necker_eeg - INFO -   Saved spectrogram difference to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject11_ambiguity_spectrogram_difference.png
+2025-03-22 14:40:31,974 - analyze_necker_eeg - INFO -   Saved frequency band powers to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject11_band_powers.json
+2025-03-22 14:40:31,974 - analyze_necker_eeg - INFO - Analyzing potential quantum neural signatures for Subject 11...
+2025-03-22 14:40:31,974 - analyze_necker_eeg - INFO -   Computing multiscale entropy...
+2025-03-22 14:40:32,597 - analyze_necker_eeg - INFO -   Saved multiscale entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject11_multiscale_entropy.png
+2025-03-22 14:40:32,598 - analyze_necker_eeg - INFO -   Computing phase synchronization...
+2025-03-22 14:40:32,825 - analyze_necker_eeg - INFO -   Saved phase synchronization analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject11_phase_synchronization.png
+2025-03-22 14:40:32,826 - analyze_necker_eeg - INFO -   Computing transfer entropy...
+2025-03-22 14:40:33,289 - analyze_necker_eeg - INFO -   Saved transfer entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject11_transfer_entropy.png
+2025-03-22 14:40:33,290 - analyze_necker_eeg - INFO -   Saved quantum metrics to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject11_quantum_metrics.json
+2025-03-22 14:40:33,290 - analyze_necker_eeg - INFO - Analysis for Subject 11 completed
+2025-03-22 14:40:33,291 - analyze_necker_eeg - INFO - Running complete analysis for Subject 12
+2025-03-22 14:40:33,291 - analyze_necker_eeg - INFO - Processing Subject 12...
+2025-03-22 14:40:33,291 - analyze_necker_eeg - INFO -   Number of trials: 80
+2025-03-22 14:40:33,291 - analyze_necker_eeg - INFO -   Number of channels: 31
+2025-03-22 14:40:33,291 - analyze_necker_eeg - INFO -   Timepoints per trial: 1000
+2025-03-22 14:40:33,291 - analyze_necker_eeg - INFO -   Unique ambiguity levels: [0.15, 0.25, 0.4, 0.45, 0.55, 0.6, 0.75, 0.85]
+2025-03-22 14:40:33,291 - analyze_necker_eeg - INFO -   Found 48 high ambiguity trials
+2025-03-22 14:40:33,291 - analyze_necker_eeg - INFO -   Found 15 medium ambiguity trials
+2025-03-22 14:40:33,291 - analyze_necker_eeg - INFO -   Found 17 low ambiguity trials
+2025-03-22 14:40:33,292 - analyze_necker_eeg - INFO -   Saved trial categorization to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/processed/necker_cube_eeg_Maksimenko/subject12_trial_categories.npy
+2025-03-22 14:40:33,292 - analyze_necker_eeg - INFO - Comparing high vs. low ambiguity neural dynamics for Subject 12...
+2025-03-22 14:40:33,996 - analyze_necker_eeg - INFO -   Saved EEG comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject12_high_vs_low_ambiguity_eeg.png
+2025-03-22 14:40:33,996 - analyze_necker_eeg - INFO -   Performing time-frequency analysis...
+2025-03-22 14:40:34,479 - analyze_necker_eeg - INFO -   Saved spectrogram comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject12_high_vs_low_ambiguity_spectrogram.png
+2025-03-22 14:40:34,751 - analyze_necker_eeg - INFO -   Saved spectrogram difference to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject12_ambiguity_spectrogram_difference.png
+2025-03-22 14:40:34,752 - analyze_necker_eeg - INFO -   Saved frequency band powers to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject12_band_powers.json
+2025-03-22 14:40:34,752 - analyze_necker_eeg - INFO - Analyzing potential quantum neural signatures for Subject 12...
+2025-03-22 14:40:34,752 - analyze_necker_eeg - INFO -   Computing multiscale entropy...
+2025-03-22 14:40:35,328 - analyze_necker_eeg - INFO -   Saved multiscale entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject12_multiscale_entropy.png
+2025-03-22 14:40:35,328 - analyze_necker_eeg - INFO -   Computing phase synchronization...
+2025-03-22 14:40:35,539 - analyze_necker_eeg - INFO -   Saved phase synchronization analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject12_phase_synchronization.png
+2025-03-22 14:40:35,540 - analyze_necker_eeg - INFO -   Computing transfer entropy...
+2025-03-22 14:40:35,961 - analyze_necker_eeg - INFO -   Saved transfer entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject12_transfer_entropy.png
+2025-03-22 14:40:35,963 - analyze_necker_eeg - INFO -   Saved quantum metrics to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject12_quantum_metrics.json
+2025-03-22 14:40:35,963 - analyze_necker_eeg - INFO - Analysis for Subject 12 completed
+2025-03-22 14:40:35,963 - analyze_necker_eeg - INFO - Running complete analysis for Subject 13
+2025-03-22 14:40:35,963 - analyze_necker_eeg - INFO - Processing Subject 13...
+2025-03-22 14:40:35,963 - analyze_necker_eeg - INFO -   Number of trials: 80
+2025-03-22 14:40:35,963 - analyze_necker_eeg - INFO -   Number of channels: 31
+2025-03-22 14:40:35,963 - analyze_necker_eeg - INFO -   Timepoints per trial: 1000
+2025-03-22 14:40:35,964 - analyze_necker_eeg - INFO -   Unique ambiguity levels: [0.15, 0.25, 0.4, 0.45, 0.55, 0.6, 0.75, 0.85]
+2025-03-22 14:40:35,964 - analyze_necker_eeg - INFO -   Found 48 high ambiguity trials
+2025-03-22 14:40:35,964 - analyze_necker_eeg - INFO -   Found 15 medium ambiguity trials
+2025-03-22 14:40:35,964 - analyze_necker_eeg - INFO -   Found 17 low ambiguity trials
+2025-03-22 14:40:35,964 - analyze_necker_eeg - INFO -   Saved trial categorization to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/processed/necker_cube_eeg_Maksimenko/subject13_trial_categories.npy
+2025-03-22 14:40:35,964 - analyze_necker_eeg - INFO - Comparing high vs. low ambiguity neural dynamics for Subject 13...
+2025-03-22 14:40:36,639 - analyze_necker_eeg - INFO -   Saved EEG comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject13_high_vs_low_ambiguity_eeg.png
+2025-03-22 14:40:36,639 - analyze_necker_eeg - INFO -   Performing time-frequency analysis...
+2025-03-22 14:40:37,125 - analyze_necker_eeg - INFO -   Saved spectrogram comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject13_high_vs_low_ambiguity_spectrogram.png
+2025-03-22 14:40:37,411 - analyze_necker_eeg - INFO -   Saved spectrogram difference to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject13_ambiguity_spectrogram_difference.png
+2025-03-22 14:40:37,412 - analyze_necker_eeg - INFO -   Saved frequency band powers to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject13_band_powers.json
+2025-03-22 14:40:37,412 - analyze_necker_eeg - INFO - Analyzing potential quantum neural signatures for Subject 13...
+2025-03-22 14:40:37,412 - analyze_necker_eeg - INFO -   Computing multiscale entropy...
+2025-03-22 14:40:37,986 - analyze_necker_eeg - INFO -   Saved multiscale entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject13_multiscale_entropy.png
+2025-03-22 14:40:37,987 - analyze_necker_eeg - INFO -   Computing phase synchronization...
+2025-03-22 14:40:38,200 - analyze_necker_eeg - INFO -   Saved phase synchronization analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject13_phase_synchronization.png
+2025-03-22 14:40:38,201 - analyze_necker_eeg - INFO -   Computing transfer entropy...
+2025-03-22 14:40:38,616 - analyze_necker_eeg - INFO -   Saved transfer entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject13_transfer_entropy.png
+2025-03-22 14:40:38,618 - analyze_necker_eeg - INFO -   Saved quantum metrics to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject13_quantum_metrics.json
+2025-03-22 14:40:38,618 - analyze_necker_eeg - INFO - Analysis for Subject 13 completed
+2025-03-22 14:40:38,618 - analyze_necker_eeg - INFO - Running complete analysis for Subject 14
+2025-03-22 14:40:38,618 - analyze_necker_eeg - INFO - Processing Subject 14...
+2025-03-22 14:40:38,618 - analyze_necker_eeg - INFO -   Number of trials: 80
+2025-03-22 14:40:38,619 - analyze_necker_eeg - INFO -   Number of channels: 31
+2025-03-22 14:40:38,619 - analyze_necker_eeg - INFO -   Timepoints per trial: 1000
+2025-03-22 14:40:38,619 - analyze_necker_eeg - INFO -   Unique ambiguity levels: [0.15, 0.25, 0.4, 0.45, 0.55, 0.6, 0.75, 0.85]
+2025-03-22 14:40:38,619 - analyze_necker_eeg - INFO -   Found 48 high ambiguity trials
+2025-03-22 14:40:38,619 - analyze_necker_eeg - INFO -   Found 15 medium ambiguity trials
+2025-03-22 14:40:38,619 - analyze_necker_eeg - INFO -   Found 17 low ambiguity trials
+2025-03-22 14:40:38,620 - analyze_necker_eeg - INFO -   Saved trial categorization to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/processed/necker_cube_eeg_Maksimenko/subject14_trial_categories.npy
+2025-03-22 14:40:38,620 - analyze_necker_eeg - INFO - Comparing high vs. low ambiguity neural dynamics for Subject 14...
+2025-03-22 14:40:39,293 - analyze_necker_eeg - INFO -   Saved EEG comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject14_high_vs_low_ambiguity_eeg.png
+2025-03-22 14:40:39,294 - analyze_necker_eeg - INFO -   Performing time-frequency analysis...
+2025-03-22 14:40:39,773 - analyze_necker_eeg - INFO -   Saved spectrogram comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject14_high_vs_low_ambiguity_spectrogram.png
+2025-03-22 14:40:40,042 - analyze_necker_eeg - INFO -   Saved spectrogram difference to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject14_ambiguity_spectrogram_difference.png
+2025-03-22 14:40:40,043 - analyze_necker_eeg - INFO -   Saved frequency band powers to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject14_band_powers.json
+2025-03-22 14:40:40,043 - analyze_necker_eeg - INFO - Analyzing potential quantum neural signatures for Subject 14...
+2025-03-22 14:40:40,043 - analyze_necker_eeg - INFO -   Computing multiscale entropy...
+2025-03-22 14:40:40,610 - analyze_necker_eeg - INFO -   Saved multiscale entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject14_multiscale_entropy.png
+2025-03-22 14:40:40,611 - analyze_necker_eeg - INFO -   Computing phase synchronization...
+2025-03-22 14:40:40,808 - analyze_necker_eeg - INFO -   Saved phase synchronization analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject14_phase_synchronization.png
+2025-03-22 14:40:40,809 - analyze_necker_eeg - INFO -   Computing transfer entropy...
+2025-03-22 14:40:41,234 - analyze_necker_eeg - INFO -   Saved transfer entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject14_transfer_entropy.png
+2025-03-22 14:40:41,235 - analyze_necker_eeg - INFO -   Saved quantum metrics to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject14_quantum_metrics.json
+2025-03-22 14:40:41,236 - analyze_necker_eeg - INFO - Analysis for Subject 14 completed
+2025-03-22 14:40:41,236 - analyze_necker_eeg - INFO - Running complete analysis for Subject 15
+2025-03-22 14:40:41,236 - analyze_necker_eeg - INFO - Processing Subject 15...
+2025-03-22 14:40:41,236 - analyze_necker_eeg - INFO -   Number of trials: 80
+2025-03-22 14:40:41,236 - analyze_necker_eeg - INFO -   Number of channels: 31
+2025-03-22 14:40:41,236 - analyze_necker_eeg - INFO -   Timepoints per trial: 1000
+2025-03-22 14:40:41,236 - analyze_necker_eeg - INFO -   Unique ambiguity levels: [0.15, 0.25, 0.4, 0.45, 0.55, 0.6, 0.75, 0.85]
+2025-03-22 14:40:41,236 - analyze_necker_eeg - INFO -   Found 48 high ambiguity trials
+2025-03-22 14:40:41,236 - analyze_necker_eeg - INFO -   Found 15 medium ambiguity trials
+2025-03-22 14:40:41,236 - analyze_necker_eeg - INFO -   Found 17 low ambiguity trials
+2025-03-22 14:40:41,237 - analyze_necker_eeg - INFO -   Saved trial categorization to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/processed/necker_cube_eeg_Maksimenko/subject15_trial_categories.npy
+2025-03-22 14:40:41,237 - analyze_necker_eeg - INFO - Comparing high vs. low ambiguity neural dynamics for Subject 15...
+2025-03-22 14:40:41,920 - analyze_necker_eeg - INFO -   Saved EEG comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject15_high_vs_low_ambiguity_eeg.png
+2025-03-22 14:40:41,920 - analyze_necker_eeg - INFO -   Performing time-frequency analysis...
+2025-03-22 14:40:42,506 - analyze_necker_eeg - INFO -   Saved spectrogram comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject15_high_vs_low_ambiguity_spectrogram.png
+2025-03-22 14:40:42,785 - analyze_necker_eeg - INFO -   Saved spectrogram difference to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject15_ambiguity_spectrogram_difference.png
+2025-03-22 14:40:42,786 - analyze_necker_eeg - INFO -   Saved frequency band powers to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject15_band_powers.json
+2025-03-22 14:40:42,789 - analyze_necker_eeg - INFO - Analyzing potential quantum neural signatures for Subject 15...
+2025-03-22 14:40:42,789 - analyze_necker_eeg - INFO -   Computing multiscale entropy...
+2025-03-22 14:40:43,351 - analyze_necker_eeg - INFO -   Saved multiscale entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject15_multiscale_entropy.png
+2025-03-22 14:40:43,352 - analyze_necker_eeg - INFO -   Computing phase synchronization...
+2025-03-22 14:40:43,561 - analyze_necker_eeg - INFO -   Saved phase synchronization analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject15_phase_synchronization.png
+2025-03-22 14:40:43,562 - analyze_necker_eeg - INFO -   Computing transfer entropy...
+2025-03-22 14:40:43,982 - analyze_necker_eeg - INFO -   Saved transfer entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject15_transfer_entropy.png
+2025-03-22 14:40:43,983 - analyze_necker_eeg - INFO -   Saved quantum metrics to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject15_quantum_metrics.json
+2025-03-22 14:40:43,983 - analyze_necker_eeg - INFO - Analysis for Subject 15 completed
+2025-03-22 14:40:43,983 - analyze_necker_eeg - INFO - Running complete analysis for Subject 16
+2025-03-22 14:40:43,983 - analyze_necker_eeg - INFO - Processing Subject 16...
+2025-03-22 14:40:43,983 - analyze_necker_eeg - INFO -   Number of trials: 80
+2025-03-22 14:40:43,983 - analyze_necker_eeg - INFO -   Number of channels: 31
+2025-03-22 14:40:43,983 - analyze_necker_eeg - INFO -   Timepoints per trial: 1000
+2025-03-22 14:40:43,984 - analyze_necker_eeg - INFO -   Unique ambiguity levels: [0.15, 0.25, 0.4, 0.45, 0.55, 0.6, 0.75, 0.85]
+2025-03-22 14:40:43,984 - analyze_necker_eeg - INFO -   Found 48 high ambiguity trials
+2025-03-22 14:40:43,984 - analyze_necker_eeg - INFO -   Found 15 medium ambiguity trials
+2025-03-22 14:40:43,984 - analyze_necker_eeg - INFO -   Found 17 low ambiguity trials
+2025-03-22 14:40:43,984 - analyze_necker_eeg - INFO -   Saved trial categorization to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/processed/necker_cube_eeg_Maksimenko/subject16_trial_categories.npy
+2025-03-22 14:40:43,984 - analyze_necker_eeg - INFO - Comparing high vs. low ambiguity neural dynamics for Subject 16...
+2025-03-22 14:40:44,651 - analyze_necker_eeg - INFO -   Saved EEG comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject16_high_vs_low_ambiguity_eeg.png
+2025-03-22 14:40:44,651 - analyze_necker_eeg - INFO -   Performing time-frequency analysis...
+2025-03-22 14:40:45,125 - analyze_necker_eeg - INFO -   Saved spectrogram comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject16_high_vs_low_ambiguity_spectrogram.png
+2025-03-22 14:40:45,406 - analyze_necker_eeg - INFO -   Saved spectrogram difference to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject16_ambiguity_spectrogram_difference.png
+2025-03-22 14:40:45,407 - analyze_necker_eeg - INFO -   Saved frequency band powers to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject16_band_powers.json
+2025-03-22 14:40:45,407 - analyze_necker_eeg - INFO - Analyzing potential quantum neural signatures for Subject 16...
+2025-03-22 14:40:45,407 - analyze_necker_eeg - INFO -   Computing multiscale entropy...
+2025-03-22 14:40:45,961 - analyze_necker_eeg - INFO -   Saved multiscale entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject16_multiscale_entropy.png
+2025-03-22 14:40:45,962 - analyze_necker_eeg - INFO -   Computing phase synchronization...
+2025-03-22 14:40:46,159 - analyze_necker_eeg - INFO -   Saved phase synchronization analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject16_phase_synchronization.png
+2025-03-22 14:40:46,160 - analyze_necker_eeg - INFO -   Computing transfer entropy...
+2025-03-22 14:40:46,578 - analyze_necker_eeg - INFO -   Saved transfer entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject16_transfer_entropy.png
+2025-03-22 14:40:46,580 - analyze_necker_eeg - INFO -   Saved quantum metrics to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject16_quantum_metrics.json
+2025-03-22 14:40:46,580 - analyze_necker_eeg - INFO - Analysis for Subject 16 completed
+2025-03-22 14:40:46,580 - analyze_necker_eeg - INFO - Running complete analysis for Subject 17
+2025-03-22 14:40:46,580 - analyze_necker_eeg - INFO - Processing Subject 17...
+2025-03-22 14:40:46,580 - analyze_necker_eeg - INFO -   Number of trials: 80
+2025-03-22 14:40:46,580 - analyze_necker_eeg - INFO -   Number of channels: 31
+2025-03-22 14:40:46,580 - analyze_necker_eeg - INFO -   Timepoints per trial: 1000
+2025-03-22 14:40:46,581 - analyze_necker_eeg - INFO -   Unique ambiguity levels: [0.15, 0.25, 0.4, 0.45, 0.55, 0.6, 0.75, 0.85]
+2025-03-22 14:40:46,581 - analyze_necker_eeg - INFO -   Found 48 high ambiguity trials
+2025-03-22 14:40:46,581 - analyze_necker_eeg - INFO -   Found 15 medium ambiguity trials
+2025-03-22 14:40:46,581 - analyze_necker_eeg - INFO -   Found 17 low ambiguity trials
+2025-03-22 14:40:46,581 - analyze_necker_eeg - INFO -   Saved trial categorization to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/processed/necker_cube_eeg_Maksimenko/subject17_trial_categories.npy
+2025-03-22 14:40:46,581 - analyze_necker_eeg - INFO - Comparing high vs. low ambiguity neural dynamics for Subject 17...
+2025-03-22 14:40:47,245 - analyze_necker_eeg - INFO -   Saved EEG comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject17_high_vs_low_ambiguity_eeg.png
+2025-03-22 14:40:47,245 - analyze_necker_eeg - INFO -   Performing time-frequency analysis...
+2025-03-22 14:40:47,730 - analyze_necker_eeg - INFO -   Saved spectrogram comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject17_high_vs_low_ambiguity_spectrogram.png
+2025-03-22 14:40:48,019 - analyze_necker_eeg - INFO -   Saved spectrogram difference to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject17_ambiguity_spectrogram_difference.png
+2025-03-22 14:40:48,020 - analyze_necker_eeg - INFO -   Saved frequency band powers to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject17_band_powers.json
+2025-03-22 14:40:48,021 - analyze_necker_eeg - INFO - Analyzing potential quantum neural signatures for Subject 17...
+2025-03-22 14:40:48,021 - analyze_necker_eeg - INFO -   Computing multiscale entropy...
+2025-03-22 14:40:48,585 - analyze_necker_eeg - INFO -   Saved multiscale entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject17_multiscale_entropy.png
+2025-03-22 14:40:48,585 - analyze_necker_eeg - INFO -   Computing phase synchronization...
+2025-03-22 14:40:48,802 - analyze_necker_eeg - INFO -   Saved phase synchronization analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject17_phase_synchronization.png
+2025-03-22 14:40:48,803 - analyze_necker_eeg - INFO -   Computing transfer entropy...
+2025-03-22 14:40:49,247 - analyze_necker_eeg - INFO -   Saved transfer entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject17_transfer_entropy.png
+2025-03-22 14:40:49,249 - analyze_necker_eeg - INFO -   Saved quantum metrics to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject17_quantum_metrics.json
+2025-03-22 14:40:49,249 - analyze_necker_eeg - INFO - Analysis for Subject 17 completed
+2025-03-22 14:40:49,249 - analyze_necker_eeg - INFO - Running complete analysis for Subject 18
+2025-03-22 14:40:49,249 - analyze_necker_eeg - INFO - Processing Subject 18...
+2025-03-22 14:40:49,249 - analyze_necker_eeg - INFO -   Number of trials: 80
+2025-03-22 14:40:49,249 - analyze_necker_eeg - INFO -   Number of channels: 31
+2025-03-22 14:40:49,249 - analyze_necker_eeg - INFO -   Timepoints per trial: 1000
+2025-03-22 14:40:49,250 - analyze_necker_eeg - INFO -   Unique ambiguity levels: [0.15, 0.25, 0.4, 0.45, 0.55, 0.6, 0.75, 0.85]
+2025-03-22 14:40:49,250 - analyze_necker_eeg - INFO -   Found 48 high ambiguity trials
+2025-03-22 14:40:49,250 - analyze_necker_eeg - INFO -   Found 15 medium ambiguity trials
+2025-03-22 14:40:49,250 - analyze_necker_eeg - INFO -   Found 17 low ambiguity trials
+2025-03-22 14:40:49,250 - analyze_necker_eeg - INFO -   Saved trial categorization to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/processed/necker_cube_eeg_Maksimenko/subject18_trial_categories.npy
+2025-03-22 14:40:49,250 - analyze_necker_eeg - INFO - Comparing high vs. low ambiguity neural dynamics for Subject 18...
+2025-03-22 14:40:49,999 - analyze_necker_eeg - INFO -   Saved EEG comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject18_high_vs_low_ambiguity_eeg.png
+2025-03-22 14:40:49,999 - analyze_necker_eeg - INFO -   Performing time-frequency analysis...
+2025-03-22 14:40:50,517 - analyze_necker_eeg - INFO -   Saved spectrogram comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject18_high_vs_low_ambiguity_spectrogram.png
+2025-03-22 14:40:50,814 - analyze_necker_eeg - INFO -   Saved spectrogram difference to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject18_ambiguity_spectrogram_difference.png
+2025-03-22 14:40:50,816 - analyze_necker_eeg - INFO -   Saved frequency band powers to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject18_band_powers.json
+2025-03-22 14:40:50,816 - analyze_necker_eeg - INFO - Analyzing potential quantum neural signatures for Subject 18...
+2025-03-22 14:40:50,816 - analyze_necker_eeg - INFO -   Computing multiscale entropy...
+2025-03-22 14:40:51,427 - analyze_necker_eeg - INFO -   Saved multiscale entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject18_multiscale_entropy.png
+2025-03-22 14:40:51,428 - analyze_necker_eeg - INFO -   Computing phase synchronization...
+2025-03-22 14:40:51,657 - analyze_necker_eeg - INFO -   Saved phase synchronization analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject18_phase_synchronization.png
+2025-03-22 14:40:51,658 - analyze_necker_eeg - INFO -   Computing transfer entropy...
+2025-03-22 14:40:52,108 - analyze_necker_eeg - INFO -   Saved transfer entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject18_transfer_entropy.png
+2025-03-22 14:40:52,109 - analyze_necker_eeg - INFO -   Saved quantum metrics to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject18_quantum_metrics.json
+2025-03-22 14:40:52,110 - analyze_necker_eeg - INFO - Analysis for Subject 18 completed
+2025-03-22 14:40:52,110 - analyze_necker_eeg - INFO - Running complete analysis for Subject 19
+2025-03-22 14:40:52,110 - analyze_necker_eeg - INFO - Processing Subject 19...
+2025-03-22 14:40:52,110 - analyze_necker_eeg - INFO -   Number of trials: 80
+2025-03-22 14:40:52,110 - analyze_necker_eeg - INFO -   Number of channels: 31
+2025-03-22 14:40:52,110 - analyze_necker_eeg - INFO -   Timepoints per trial: 1000
+2025-03-22 14:40:52,110 - analyze_necker_eeg - INFO -   Unique ambiguity levels: [0.15, 0.25, 0.4, 0.45, 0.55, 0.6, 0.75, 0.85]
+2025-03-22 14:40:52,110 - analyze_necker_eeg - INFO -   Found 48 high ambiguity trials
+2025-03-22 14:40:52,110 - analyze_necker_eeg - INFO -   Found 15 medium ambiguity trials
+2025-03-22 14:40:52,110 - analyze_necker_eeg - INFO -   Found 17 low ambiguity trials
+2025-03-22 14:40:52,111 - analyze_necker_eeg - INFO -   Saved trial categorization to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/processed/necker_cube_eeg_Maksimenko/subject19_trial_categories.npy
+2025-03-22 14:40:52,111 - analyze_necker_eeg - INFO - Comparing high vs. low ambiguity neural dynamics for Subject 19...
+2025-03-22 14:40:52,840 - analyze_necker_eeg - INFO -   Saved EEG comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject19_high_vs_low_ambiguity_eeg.png
+2025-03-22 14:40:52,840 - analyze_necker_eeg - INFO -   Performing time-frequency analysis...
+2025-03-22 14:40:53,315 - analyze_necker_eeg - INFO -   Saved spectrogram comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject19_high_vs_low_ambiguity_spectrogram.png
+2025-03-22 14:40:53,595 - analyze_necker_eeg - INFO -   Saved spectrogram difference to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject19_ambiguity_spectrogram_difference.png
+2025-03-22 14:40:53,596 - analyze_necker_eeg - INFO -   Saved frequency band powers to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject19_band_powers.json
+2025-03-22 14:40:53,596 - analyze_necker_eeg - INFO - Analyzing potential quantum neural signatures for Subject 19...
+2025-03-22 14:40:53,596 - analyze_necker_eeg - INFO -   Computing multiscale entropy...
+2025-03-22 14:40:54,153 - analyze_necker_eeg - INFO -   Saved multiscale entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject19_multiscale_entropy.png
+2025-03-22 14:40:54,154 - analyze_necker_eeg - INFO -   Computing phase synchronization...
+2025-03-22 14:40:54,352 - analyze_necker_eeg - INFO -   Saved phase synchronization analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject19_phase_synchronization.png
+2025-03-22 14:40:54,353 - analyze_necker_eeg - INFO -   Computing transfer entropy...
+2025-03-22 14:40:54,770 - analyze_necker_eeg - INFO -   Saved transfer entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject19_transfer_entropy.png
+2025-03-22 14:40:54,771 - analyze_necker_eeg - INFO -   Saved quantum metrics to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject19_quantum_metrics.json
+2025-03-22 14:40:54,772 - analyze_necker_eeg - INFO - Analysis for Subject 19 completed
+2025-03-22 14:40:54,772 - analyze_necker_eeg - INFO - Running complete analysis for Subject 20
+2025-03-22 14:40:54,772 - analyze_necker_eeg - INFO - Processing Subject 20...
+2025-03-22 14:40:54,772 - analyze_necker_eeg - INFO -   Number of trials: 80
+2025-03-22 14:40:54,772 - analyze_necker_eeg - INFO -   Number of channels: 31
+2025-03-22 14:40:54,772 - analyze_necker_eeg - INFO -   Timepoints per trial: 1000
+2025-03-22 14:40:54,772 - analyze_necker_eeg - INFO -   Unique ambiguity levels: [0.15, 0.25, 0.4, 0.45, 0.55, 0.6, 0.75, 0.85]
+2025-03-22 14:40:54,772 - analyze_necker_eeg - INFO -   Found 48 high ambiguity trials
+2025-03-22 14:40:54,772 - analyze_necker_eeg - INFO -   Found 15 medium ambiguity trials
+2025-03-22 14:40:54,772 - analyze_necker_eeg - INFO -   Found 17 low ambiguity trials
+2025-03-22 14:40:54,773 - analyze_necker_eeg - INFO -   Saved trial categorization to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/data/processed/necker_cube_eeg_Maksimenko/subject20_trial_categories.npy
+2025-03-22 14:40:54,773 - analyze_necker_eeg - INFO - Comparing high vs. low ambiguity neural dynamics for Subject 20...
+2025-03-22 14:40:55,526 - analyze_necker_eeg - INFO -   Saved EEG comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject20_high_vs_low_ambiguity_eeg.png
+2025-03-22 14:40:55,526 - analyze_necker_eeg - INFO -   Performing time-frequency analysis...
+2025-03-22 14:40:56,003 - analyze_necker_eeg - INFO -   Saved spectrogram comparison to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject20_high_vs_low_ambiguity_spectrogram.png
+2025-03-22 14:40:56,257 - analyze_necker_eeg - INFO -   Saved spectrogram difference to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject20_ambiguity_spectrogram_difference.png
+2025-03-22 14:40:56,258 - analyze_necker_eeg - INFO -   Saved frequency band powers to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject20_band_powers.json
+2025-03-22 14:40:56,258 - analyze_necker_eeg - INFO - Analyzing potential quantum neural signatures for Subject 20...
+2025-03-22 14:40:56,258 - analyze_necker_eeg - INFO -   Computing multiscale entropy...
+2025-03-22 14:40:56,813 - analyze_necker_eeg - INFO -   Saved multiscale entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject20_multiscale_entropy.png
+2025-03-22 14:40:56,815 - analyze_necker_eeg - INFO -   Computing phase synchronization...
+2025-03-22 14:40:57,030 - analyze_necker_eeg - INFO -   Saved phase synchronization analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject20_phase_synchronization.png
+2025-03-22 14:40:57,031 - analyze_necker_eeg - INFO -   Computing transfer entropy...
+2025-03-22 14:40:57,450 - analyze_necker_eeg - INFO -   Saved transfer entropy analysis to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/figures/subject20_transfer_entropy.png
+2025-03-22 14:40:57,451 - analyze_necker_eeg - INFO -   Saved quantum metrics to /blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/results/necker_cube_eeg_Maksimenko/statistics/subject20_quantum_metrics.json
+2025-03-22 14:40:57,451 - analyze_necker_eeg - INFO - Analysis for Subject 20 completed
+2025-03-22 14:40:57,451 - analyze_necker_eeg - INFO - Successfully processed 20 out of 20 subjects
+2025-03-22 14:40:57,451 - analyze_necker_eeg - INFO - Performing group-level analysis...
+2025-03-22 14:40:57,451 - analyze_necker_eeg - INFO - Performing group-level analysis...
+2025-03-22 14:40:57,452 - analyze_necker_eeg - INFO - Analyzing data from 20 subjects: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+2025-03-22 14:40:57,464 - analyze_necker_eeg - ERROR - Error performing group analysis: Object of type bool is not JSON serializable
+2025-03-22 14:40:57,470 - analyze_necker_eeg - ERROR - Traceback (most recent call last):
+  File "/blue/mcb4324/share/sdavidson2/QuantumNeuralCoherence/code/analysis/analyze_necker_eeg_group.py", line 961, in perform_group_analysis
+    json.dump(group_results, f, indent=4)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sdavidson2/.conda/envs/quantum_neuro/lib/python3.13/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+                 ^^^^^^^^
+  File "/home/sdavidson2/.conda/envs/quantum_neuro/lib/python3.13/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/home/sdavidson2/.conda/envs/quantum_neuro/lib/python3.13/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/home/sdavidson2/.conda/envs/quantum_neuro/lib/python3.13/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/home/sdavidson2/.conda/envs/quantum_neuro/lib/python3.13/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  [Previous line repeated 1 more time]
+  File "/home/sdavidson2/.conda/envs/quantum_neuro/lib/python3.13/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+  File "/home/sdavidson2/.conda/envs/quantum_neuro/lib/python3.13/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type bool is not JSON serializable
+
+2025-03-22 14:40:57,470 - analyze_necker_eeg - INFO - Analysis completed successfully
